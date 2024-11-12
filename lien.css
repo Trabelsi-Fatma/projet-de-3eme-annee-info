@@ -1,0 +1,41 @@
+ul li {
+    list-style:georgian;
+   
+    font-size: large;
+    background-color: rgb(193, 158, 205);
+      
+    color: rgb(78, 15, 105);
+    border: 5px solid rgb(193, 150, 193);
+    border-radius: 10px;
+    width:120px;
+    height: 40px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    
+}
+
+
+a:after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background:rgb(248, 248, 248);
+    
+}
+a:hover::after{
+    transition: width .7s;
+    
+    width: 90%;
+}
+#f1{
+    
+    width: 00%;
+    height: 300px;
+
+}
+#f2{
+    width: 100%;
+    height: 400px;
+
+}
